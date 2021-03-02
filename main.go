@@ -36,7 +36,7 @@ type todoHandlers struct {
 func (h *todoHandlers) todos(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Headers", "*")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set( "Access-Control-Allow-Methods","GET, POST, PATCH, DELETE, OPTIONS" )
+	w.Header().Set( "Access-Control-Allow-Methods","GET, POST, PUT, DELETE, OPTIONS" )
 
 	switch r.Method {
 	case "GET":
