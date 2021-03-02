@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	gonanoid "github.com/matoous/go-nanoid"
+	gonanoid "github.com/matoous/go-nanoid/v2"
 )
 
 // requirements
