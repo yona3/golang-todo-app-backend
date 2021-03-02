@@ -1,1 +1,1 @@
-web: backend
+web: golang-todo-app-api
